@@ -1,32 +1,19 @@
-# Java Full Stack Web Development Internship
 
-## Day 1 – Introduction to Java and Full Stack Development
+Participated in the first technical session of the Java Full Stack Web Development internship. The session introduced the concept of Full Stack Development and explained how Java is used in building complete web applications.
+The mentor explained the internal architecture of Java, including:
 
-### Work Summary
-- Attended the first technical session of the internship.
-- Learned the concept of Full Stack Development and Java’s role in backend.
-- Studied Java architecture: JVM, JRE, and JDK.
-- Understood how Java programs are compiled and executed.
-- Explored various domains where Java is used.
-- Created a GitHub repository to track internship progress.
+    -->JVM (Java Virtual Machine)
+    -->JRE (Java Runtime Environment)
+    -->JDK (Java Development Kit)
 
-### Learnings / Outcomes
-- Understood Java execution process.
-- Learned the difference between JVM, JRE, and JDK.
-- Learned about Java platform independence.
-- Gained basic understanding of Full Stack Development.
-- Learned the importance of GitHub for documentation.
 
-### Skills Gained
-- Java Architecture Basics
-- Full Stack Development Overview
-- GitHub Repository Management
-- Technical Documentation
+The process of compiling and executing Java programs was discussed.
+Different application areas of Java were also introduced, including:
+    -->Web Development
+    -->Enterprise Applications
+    -->Android Development
+    -->Big Data Technologies
+    -->Desktop Applications
+    -->Cloud Platforms
 
-### Reflection
-The session provided a strong foundation in Java and Full Stack Development. Creating the GitHub repository will help in organizing and tracking my learning throughout the internship.
-
----
-
-**Repository Purpose:**  
-This repository is used to document daily learning, practice programs, and progress during the Java Full Stack Web Development Internship.
+Additionally, created a GitHub repository to store, manage, and track internship work.
