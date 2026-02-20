@@ -1,0 +1,18 @@
+In this session, I learned about the fundamental concepts of data types and variables in Java. Data types are used to define the type of data that a variable can store. They also determine how much memory is allocated and what kind of operations can be performed on the data. Java is a strongly typed language, which means every variable must be declared with a data type before it is used.
+
+The mentor explained primitive data types such as int, double, char, and boolean. The int data type is used to store whole numbers, double is used for decimal values, char is used to store a single character, and boolean is used to store true or false values. Each data type uses different memory sizes internally.
+
+A variable is a name given to a memory location where data is stored. Variables make it easier to store and reuse values in a program. The process involves declaring the variable, assigning a value, and then using it when required.
+
+The working flow starts with declaring a variable using the appropriate data type. After declaration, a value is assigned to the variable. When the program executes, memory is allocated, and the stored value can be accessed and printed or used in operations.
+
+The session also covered naming conventions in Java. Class names should start with a capital letter, variable names should start with a small letter, and method names should follow camelCase format. These conventions improve readability and maintain standard coding practices.
+
+This concept is important because data types and variables are the basic building blocks of any Java program.
+
+
+\\Syntax:
+        int age = 21;
+        double marks = 85.5;
+        char grade = 'A';
+        boolean result = true;
