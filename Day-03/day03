@@ -1,0 +1,14 @@
+--> MASTER CLASS WHERE WE COVER RANDOM IMPORTNAT TOPICS
+
+Today’s session focused on understanding the Linked List as a linear data structure. Unlike arrays, linked lists store elements in non-contiguous memory locations. Each element is stored in a separate object called a node. A node contains two parts: the data part, which stores the actual value, and the link part, which stores the reference to the next node. 
+
+These nodes are connected using references, forming a chain-like structure.
+
+
+The mentor explained the singly linked list, where each node points only to the next node in the sequence. Traversal in a singly linked list starts from the first node called the head and continues until the last node, whose reference is null. The doubly linked list was also discussed, where each node contains two links: one pointing to the next node and another pointing to the previous node. This allows traversal in both forward and backward directions.
+
+The working flow of a linked list starts with creating nodes and connecting them using references. The first node is called the head. During traversal, the program follows the links from one node to another until all nodes are visited. 
+
+Linked lists are dynamic in size, which makes insertion and deletion easier compared to arrays. However, accessing elements takes more time because traversal is required.
+
+This concept is important because linked lists are widely used in implementing stacks, queues, and other dynamic data structures.
