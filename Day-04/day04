@@ -1,0 +1,9 @@
+
+In today’s lecture, I learned about control flow statements in Java, which are used to control the order of execution of a program. Normally, Java executes statements from top to bottom, but control flow statements allow the program to make decisions and repeat actions based on conditions. These statements are very important for implementing logic in real-world applications.
+
+The mentor explained conditional statements such as if, if-else, else-if ladder, and switch. The if statement is used to check a condition and execute code only if the condition is true. The if-else statement provides an alternative block of code when the condition is false. The else-if ladder is used when multiple conditions need to be checked. The switch statement is used to select one block of code from multiple options based on a value.
+
+The session also covered looping statements such as for, while, and do-while loops. These loops are used when a block of code needs to be executed repeatedly. The for loop is used when the number of iterations is known. The while loop executes as long as the condition is true. The do-while loop executes at least once before checking the condition.
+The working flow starts by checking the condition. If the condition is true, the corresponding block executes. In loops, the condition is checked repeatedly, and execution continues until the condition becomes false. These control flow statements help in decision-making and reduce code repetition.
+
+This concept is essential because control flow statements are used in almost every Java program to implement logic and repetition.
