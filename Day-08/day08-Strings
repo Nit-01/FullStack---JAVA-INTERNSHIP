@@ -1,0 +1,10 @@
+Today’s lecture focused on understanding the String class in Java and its importance in handling text-based data. A String represents a sequence of characters and is widely used in applications such as form inputs, messages, file handling, and database operations. 
+
+The mentor explained that Strings in Java are immutable in nature, which means once a String object is created, its value cannot be changed. If any modification is performed, a new String object is created instead of changing the existing one.
+
+The session covered different ways of creating strings. A string can be created using string literal syntax or by using the new keyword. When created using literals, Java stores them in a special memory area called the String Constant Pool. This helps in memory optimization by reusing existing objects. When created using new, a new object is always created in heap memory.
+
+Various built-in methods of the String class were demonstrated. Methods such as equals() are used to compare string values, charAt() is used to extract a character at a specific index, toUpperCase() and toLowerCase() are used to modify case, and split() is used to divide a string into multiple parts based on a delimiter. These methods make string manipulation simple and efficient.
+
+The working flow begins with creating a string object. When a method is called on a string, the method processes the text and returns a new result if modification is involved. Because strings are immutable, the original value remains unchanged unless reassigned.
+Understanding strings is important because text processing is a fundamental part of most Java applications.
