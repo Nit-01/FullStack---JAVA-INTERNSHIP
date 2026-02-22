@@ -1,0 +1,17 @@
+Today’s lecture focused on advanced concepts of arrays in Java, especially two-dimensional arrays, jagged arrays, and final arrays. 
+A two-dimensional array is an array of arrays and is used to store data in rows and columns format.
+It is useful for representing tables and matrices. Each element is accessed using two index positions, one for row and one for column.
+Memory is allocated in a structured format, and loops are used to access elements.
+
+The mentor explained jagged arrays, which are a special type of two-dimensional array where each row can have a different number of columns. 
+Unlike regular 2D arrays, memory is not equally allocated for all rows. Each row is created separately, which makes memory usage more 
+flexible and efficient. Jagged arrays are useful when the data size is not the same for every row.
+
+The concept of final arrays was also discussed. When an array is declared as final, the reference of the array cannot be changed to 
+point to another array. However, the elements inside the array can still be modified. This means final prevents reassignment but 
+allows updating values.
+
+The working flow starts with declaring the array and allocating memory. For jagged arrays, each row is initialized separately. 
+
+Elements are stored and accessed using index positions. Loops are used to traverse and print elements. These concepts are important 
+for handling complex data structures in Java programs.
