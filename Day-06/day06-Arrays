@@ -1,0 +1,10 @@
+Today’s lecture focused on understanding arrays as a data structure in Java. An array is used to store multiple values of the same data type in a single variable. Instead of creating separate variables, arrays allow storing all values together. 
+
+The mentor explained that arrays store elements in contiguous memory locations, and each element is accessed using an index position. The index always starts from 0 and ends at size-1.
+
+The session covered the syntax of array declaration, creation, and initialization. First, the array is declared, then memory is allocated using the new keyword, and values are stored in the array. Each value can be accessed or modified using its index. If an invalid index is used, it results in an error. Arrays are useful for storing and managing large amounts of data efficiently.
+
+The mentor also demonstrated how loops are used with arrays. Using loops makes it easier to access each element one by one. This helps in performing operations such as printing elements, calculating the sum, and searching for a value. The working flow starts with creating the array, storing values, and then using a loop to process each element. Arrays improve code efficiency and reduce the need for multiple variables.
+
+This concept is important because arrays are widely used in programming and are the foundation for advanced data structures.
+Example Program:
