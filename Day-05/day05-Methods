@@ -1,0 +1,9 @@
+Today’s session focused on understanding methods in Java and their importance in creating structured and reusable programs. A method is a block of code that performs a specific task and can be called whenever required. Methods help in reducing code duplication and improve program readability. The mentor explained the syntax of a method, which includes the access modifier, return type, method name, and parameters.
+
+The session explained how methods are defined and how they are called from the main method. When a method is called, the control transfers to that method, executes the statements, and then returns back to the main method. Methods can return a value or may not return any value depending on the return type. Parameter passing was also discussed, where values are passed to methods so that they can perform operations on the given inputs.
+
+The mentor also explained command line arguments, which allow users to pass values to the program at the time of execution. These values are received in the main method through the String args[] parameter. This makes programs more flexible because input can be given during runtime.
+
+In addition, variable-length arguments (varargs) were discussed. Varargs allow a method to accept any number of arguments using ellipsis (...). Internally, these arguments are treated as an array. This feature is useful when the number of inputs is not fixed.
+
+The working flow starts from the main method, where the program begins execution. When a method is called, the input values are passed, the method executes its logic, and returns the result. This makes programs modular and easy to manage.
