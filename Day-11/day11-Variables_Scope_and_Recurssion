@@ -1,0 +1,14 @@
+Today’s session focused on understanding variable scope and recursion in Java. Variable scope defines where a variable can be accessed and how long it exists in the program. The mentor explained that variables are classified based on their scope as local, instance, and static variables. Local variables are declared inside a method and can be used only within that method. 
+
+Instance variables are declared inside a class but outside methods and belong to an object. Static variables are declared using the static keyword and are shared among all objects of the class.
+
+The session explained that the lifetime of a local variable is limited to the method execution, while instance and static variables exist as long as the object or class exists. Scope helps in controlling memory usage and prevents unauthorized access to variables. 
+Proper use of scope improves program structure and avoids conflicts between variables.
+
+The lecture also introduced recursion, which is a process where a method calls itself to solve a problem. 
+The mentor explained that recursion must have a base condition to stop the repeated calls; otherwise, it will lead to infinite recursion and stack overflow. Each recursive call is stored in stack memory, and once the base condition is reached, the calls return one by one.
+The working flow starts from the main method, where a recursive method is called. 
+
+The method keeps calling itself with a new value until the base condition is met. After that, the control returns back through each call, and the result is printed.
+
+This concept is important because recursion is widely used in problems like factorial, searching, and tree traversal.
