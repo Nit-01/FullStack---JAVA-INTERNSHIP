@@ -1,0 +1,13 @@
+Today’s lecture focused on method implementation and parameter handling in Java. A method is a block of code defined inside a class to perform a specific task. It helps in organizing the program into smaller parts and improves code reusability. 
+
+The mentor explained that every method has a method signature, which includes the method name and parameters, and a return type, which specifies the type of value the method returns.
+
+The session explained how methods are called from the main method and how arguments are passed during method invocation. 
+When a method is called, the control transfers from the main method to the called method. The method executes its statements and returns the result back to the calling method. If the return type is void, it does not return any value.
+
+The mentor also explained that Java follows the call-by-value mechanism. 
+This means a copy of the original value is passed to the method, not the actual variable. Any changes made inside the method affect only the copied value and not the original variable. The session also discussed memory allocation, where method calls are stored in stack memory. Each method gets its own stack frame, and once execution is completed, the memory is released.
+
+The working flow starts from the main method, where the method is called and arguments are passed. The called method receives the copied values, performs the operation, and returns the result. The result is then stored and printed.
+
+Understanding this concept is important because methods are essential for building structured and modular programs.
