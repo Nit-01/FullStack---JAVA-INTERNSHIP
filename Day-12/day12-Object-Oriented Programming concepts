@@ -1,0 +1,25 @@
+Today’s lecture focused on important Object-Oriented Programming concepts such as constructors, object lifecycle, 
+garbage collection, and inheritance. A constructor is a special method in Java that is automatically called when an 
+object is created. It has the same name as the class and does not have a return type. 
+
+Constructors are mainly used to initialize data members of an object. Constructor overloading allows multiple constructors with different parameters so 
+that objects can be initialized in different ways.
+
+The mentor explained the lifecycle of an object. When an object is created using the new keyword, memory is allocated in 
+heap memory, and the constructor is executed to initialize the object. The object remains in memory as long as it is 
+being used. 
+
+When there are no references pointing to the object, it becomes eligible for garbage collection. Garbage collection is an 
+automatic process in Java that removes unused objects from heap memory and frees space.
+
+The session also covered inheritance, which allows one class to acquire the properties and methods of another class using 
+the extends keyword. The class that is inherited from is called the superclass, and the class that inherits is called the 
+subclass. This helps in code reusability and reduces duplication. The subclass can use the members of the superclass and 
+also add its own features.
+
+The working flow starts when an object of the subclass is created. Memory is allocated in heap memory, and the constructor 
+is executed. The subclass object can access inherited members and its own members. When the object is no longer used, 
+garbage collection removes it from memory.
+
+This concept is important because inheritance and constructors are fundamental features of object-oriented
+programming in Java.
