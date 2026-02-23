@@ -1,0 +1,11 @@
+Today’s lecture focused on advanced string handling concepts in Java. The mentor explained the internal behavior of the String class and reinforced that strings are immutable, meaning their values cannot be changed after creation. Any modification results in a new object, which can affect memory and performance when frequent changes are required.
+
+To solve this limitation, StringBuffer and StringBuilder were introduced. Both are mutable classes, which means their content can be modified without creating new objects. The main difference between them is synchronization. StringBuffer is synchronized, which makes it thread-safe and suitable for multi-threaded environments, but it is slower. 
+
+StringBuilder is not synchronized, which makes it faster and more efficient, and it is mainly used in single-threaded environments.
+
+The mentor also explained the String Constant Pool, which is a special memory area used to store string literals. When a string literal is created, Java checks the pool first. If the string already exists, the same reference is reused, which helps in memory optimization. If not, a new object is created.
+
+The session also introduced Regular Expressions using Pattern and Matcher classes. These are used to define patterns and check whether a string matches a specific format. This is useful for tasks such as validating email, phone numbers, and passwords.
+
+The working flow starts with creating a mutable string object using StringBuilder or StringBuffer. Modifications are done using methods like append() without creating new objects. For pattern matching, a Pattern is created, and Matcher is used to compare it with the given text and return the result.
