@@ -1,0 +1,14 @@
+Today’s lecture focused on the concept of polymorphism in Java, which allows methods to perform different tasks based 
+on the object or parameters. Polymorphism means “many forms” and helps improve flexibility and reusability in 
+object-oriented programming. 
+
+The mentor explained that polymorphism is mainly divided into compile-time polymorphism and runtime polymorphism.
+Compile-time polymorphism is achieved using method overloading. In method overloading, multiple methods have the same name but different parameter lists, such as different number or types of parameters. 
+
+The method call is resolved at compile time based on the arguments passed. This helps in performing similar operations with different inputs using the same method name.
+
+Runtime polymorphism is achieved using method overriding. In method overriding, a subclass provides its own implementation of a method that is already defined in the superclass. The method call is resolved at runtime based on the object type. This allows dynamic behavior and supports inheritance.
+
+The working flow starts when an object is created and a method is called. If methods are overloaded, the compiler decides which method to call. If methods are overridden, the JVM decides which method to execute at runtime. This helps in achieving dynamic method dispatch.
+
+This concept is important because polymorphism is widely used in real-world applications to implement flexibility and dynamic behavior.
