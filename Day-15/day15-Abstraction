@@ -1,0 +1,11 @@
+Today’s lecture focused on the concept of abstraction in Java, which is used to hide implementation details and show only essential features to the user. Abstraction helps in reducing complexity and improving code design. 
+
+It is achieved using abstract classes and interfaces. An abstract class is declared using the abstract keyword and can contain both abstract methods and normal methods. Abstract methods do not have a body and must be implemented by the subclass.
+
+The mentor explained that abstract classes cannot be instantiated directly. Instead, they are used as a base class, and their abstract methods are implemented in child classes using inheritance. This ensures that all subclasses follow a common structure while providing their own implementation. Abstraction helps in achieving security and flexibility in programs.
+
+The session also introduced interfaces, which are used to achieve full abstraction. An interface contains only abstract methods by default and defines a blueprint for classes. A class implements an interface using the implements keyword and provides implementation for its methods. Interfaces support multiple inheritance, which means a class can implement more than one interface.
+
+The working flow starts with creating an abstract class or interface. A subclass or implementing class provides the method definitions. When an object is created using the reference of abstract class or interface, the implemented method is executed at runtime.
+
+This concept is important because abstraction and interfaces are widely used in large applications to design scalable and maintainable systems.
