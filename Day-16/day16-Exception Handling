@@ -1,0 +1,20 @@
+Today’s session focused on exception handling in Java, which is used to handle abnormal conditions that occur during 
+program execution. An exception is an event that interrupts the normal flow of the program. The mentor explained that 
+all exceptions are part of the exception hierarchy under the Throwable class. 
+
+There are two main types: checked exceptions, which are checked at compile time, and unchecked exceptions, which occur at runtime. Exception handling h
+elps prevent program termination and allows the program to continue execution normally.
+
+The try-catch-finally block is used to handle exceptions. 
+The try block contains the code that may cause an exception. 
+The catch block handles the exception and prevents the program from crashing. 
+The finally block contains code that always executes whether an exception occurs or not, and it is mainly used 
+for cleanup operations. The mentor also explained the use of throw and throws keywords. The throw keyword is used 
+to create and explicitly throw an exception, while throws is used to declare exceptions in the method signature.
+
+The working flow starts when the program executes code inside the try block. 
+If an exception occurs, Java creates an exception object and transfers control to the catch block. The catch block 
+handles the exception, and then the finally block executes. If no exception occurs, the catch block is skipped, and 
+finally still executes. This mechanism ensures safe and smooth program execution.
+
+This concept is important because exception handling improves program reliability and prevents unexpected termination.
