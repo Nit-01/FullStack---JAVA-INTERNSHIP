@@ -1,0 +1,19 @@
+Today’s class focused on the Java Collections Framework, which is used to store and manage groups of objects dynamically. 
+Collections are part of the java.util package and provide ready-made classes and interfaces for efficient data handling. 
+The mentor explained that List and Set are important interfaces in the collection framework.
+
+The List interface is used to store ordered elements, and it allows duplicate values. Classes like ArrayList and LinkedList 
+implement the List interface. ArrayList stores elements in a dynamic array and provides fast access using index positions. 
+
+LinkedList stores elements using nodes and links, which makes insertion and deletion easier. Elements in a list can be 
+accessed using loops or index positions.
+
+The Set interface is used to store unique elements, and it does not allow duplicate values. HashSet is a commonly used 
+class that implements the Set interface. It stores elements in an unordered format and automatically ignores duplicate entries.
+This is useful when only unique values are required.
+
+The working flow starts by creating a collection object. Elements are added using the add() method. A loop is used to 
+access and display elements. If duplicate values are added in a Set, they are ignored automatically. Collections help in 
+managing data efficiently and dynamically.
+
+This concept is important because collections are widely used in Java applications for storing and processing data.
