@@ -1,0 +1,18 @@
+Today’s lecture focused on pattern printing using looping constructs in Java. Pattern programs are used to improve 
+logical thinking and understanding of loop control. The mentor explained that nested for loops are mainly used for p
+attern printing, where the outer loop controls the number of rows and the inner loop controls the number of columns. 
+
+By adjusting loop limits and print statements, different shapes such as pyramids, triangles, and number patterns can be 
+created.
+
+The session emphasized understanding the flow of loops. First, the outer loop starts and represents each row. Inside it, 
+the inner loop runs and prints symbols such as stars or numbers. After the inner loop finishes, the cursor moves to the 
+next line using println(). This process repeats until all rows are printed. Proper control of loop variables and conditions 
+is necessary to get the correct pattern shape.
+
+The mentor also explained that pattern printing requires careful observation of how many rows and columns are needed and 
+how values change in each row. This helps in developing problem-solving skills and improves programming logic. 
+Nested loops are very useful in such cases because they allow repetition inside another repetition.
+
+The working flow starts from the outer loop, which controls rows. For each row, the inner loop executes and prints 
+the required output. Once the condition becomes false, the loops stop, and the pattern is completed.
