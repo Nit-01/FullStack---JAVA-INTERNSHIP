@@ -1,0 +1,19 @@
+Today’s extended session focused on the Map interface and the use of Iterator in the Java Collections Framework. 
+A Map is used to store data in key–value pairs, where each key is unique and maps to a specific value. Unlike List, 
+Map does not allow duplicate keys, and unlike Set, it stores values along with keys. The mentor explained that Map is 
+part of the java.util package and is widely used when data needs to be retrieved using a unique identifier.
+
+Different implementations of Map were discussed. HashMap stores entries in an unordered format and provides fast 
+performance. LinkedHashMap maintains insertion order of elements. TreeMap stores entries in sorted order based on keys. 
+The performance and ordering behavior differ depending on the implementation used.
+
+The session also covered the Iterator interface, which is used to traverse collections. Iterator provides methods 
+such as hasNext() to check if more elements are present and next() to retrieve the next element. When working with Map, 
+the entrySet() method is commonly used to access key–value pairs, and then an iterator is applied to traverse them.
+
+The working flow starts by creating a Map object and adding entries using the put() method. To traverse, entrySet() 
+is used to get all entries, and an iterator loops through them. The hasNext() method checks for remaining elements, 
+and next() retrieves each entry. This approach allows safe and structured traversal of collections.
+
+This concept is important because Map and Iterator are widely used for managing structured data efficiently in real-time 
+applications.
