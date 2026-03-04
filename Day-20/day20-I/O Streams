@@ -1,0 +1,9 @@
+Today’s class focused on understanding Java I/O Streams and their role in performing input and output operations in Java applications. The mentor explained that Java uses a stream-based approach to transfer data between a program and external resources such as files, keyboards, or networks. A stream represents a flow of data, where data can either be read from a source or written to a destination.
+
+The session explained two main types of streams: byte streams and character streams. Byte streams are used to handle raw binary data such as images, audio files, or other non-text data. Classes like FileInputStream and FileOutputStream belong to this category. Character streams are used to handle text data and support character encoding. Classes such as FileReader and FileWriter are commonly used for reading and writing character data.
+
+The mentor demonstrated how data can be read from a file and written into another file using these stream classes. The process involves creating a stream object, opening the file, performing read or write operations, and finally closing the stream to release system resources. Proper handling of streams is important to avoid memory leaks and ensure efficient data transfer.
+
+The working flow begins by creating an object of a stream class and associating it with a file. When the program runs, the input stream reads data from the source file and stores it temporarily in the program. The output stream then writes the data to the destination file. After completing the operation, the stream is closed.
+
+Understanding Java I/O is important because file handling and data transfer are essential parts of most real-world applications.
