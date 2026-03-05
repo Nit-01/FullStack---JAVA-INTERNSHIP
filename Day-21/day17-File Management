@@ -1,0 +1,15 @@
+Today’s session focused on file management operations in Java using classes from the java.io package. File handling allows Java programs to interact with files stored in the system for storing and retrieving data. 
+
+The mentor explained that files are commonly used to permanently store information so that it can be accessed even after the program finishes execution.
+
+The lecture introduced the File class, which represents the path of a file or directory in the system. It does not directly read or write data but provides methods to perform operations such as checking if a file exists, creating a new file, and deleting files. Methods like createNewFile(), exists(), and delete() help manage file operations.
+
+The session also covered FileWriter and FileReader classes. FileWriter is used to write character data into a file, while FileReader is used to read character data from a file. 
+
+These classes belong to the character stream category and are mainly used for text-based files. The mentor explained that when writing or reading files, streams should always be closed after use to release system resources.
+
+The working flow starts with creating a File object that represents the file path. If the file does not exist, the program can create it using createNewFile(). T
+
+hen FileWriter can write text into the file, and FileReader can read the stored content. If the file is no longer needed, it can be removed using the delete() method.
+
+Understanding file management is important because many real-world applications store data in files for later use.
