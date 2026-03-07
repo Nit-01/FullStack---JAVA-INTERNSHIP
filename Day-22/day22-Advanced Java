@@ -1,0 +1,9 @@
+Today’s lecture introduced the fundamentals of Advanced Java and its role in building web applications. The mentor explained how Java is widely used in server-side development to create dynamic web applications. Unlike basic Java programs that run as standalone applications, Advanced Java focuses on technologies that allow Java programs to interact with web browsers and servers.
+
+The session began with an explanation of how a web system works. A user sends a request through a web browser, which acts as the client. This request is sent to a web server where the application logic runs. The server processes the request and sends a response back to the browser, usually in the form of HTML content. This interaction between client and server forms the basis of web applications.
+
+The mentor also introduced important technologies used in Java web development such as Servlets and JSP (JavaServer Pages). Servlets are Java programs that run on the server and handle client requests. They process the request, perform necessary operations, and generate a response. JSP is used to create dynamic web pages by embedding Java code within HTML. Together, Servlets and JSP help build interactive web applications.
+
+The working flow starts when a user sends a request from a browser to the server. The server receives the request and forwards it to a servlet. The servlet processes the request and prepares a response. If JSP is used, it generates dynamic HTML content which is then sent back to the browser for display.
+
+Understanding these concepts is important because they form the foundation for developing Java-based web applications.
