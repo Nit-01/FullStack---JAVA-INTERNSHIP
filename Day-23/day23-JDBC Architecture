@@ -1,0 +1,9 @@
+Today’s session focused on understanding JDBC (Java Database Connectivity) and how Java applications connect to relational databases. JDBC is an API provided by Java that allows programs to interact with databases for storing, retrieving, and managing data. It acts as a bridge between the Java application and the database system.
+
+The mentor explained the main components involved in JDBC architecture. The JDBC Driver is responsible for enabling communication between the Java application and the database. The DriverManager manages available drivers and helps establish a connection. The Connection object represents the link between the program and the database. The Statement object is used to execute SQL queries, and the ResultSet object is used to store and retrieve the results returned from the database.
+
+The session demonstrated the step-by-step process of connecting a Java application to a database. First, the JDBC driver is loaded so that the program can communicate with the database. Next, a connection is established using the DriverManager by providing the database URL, username, and password. After the connection is created, SQL queries are executed using a Statement object. The results of the query are returned as a ResultSet, which can be accessed row by row.
+
+The working flow starts when the program loads the JDBC driver. After that, a connection is created with the database. SQL queries are executed using the statement object, and the result is stored in a ResultSet. The program then retrieves the data from the result set and displays it. Finally, the database connection is closed to release resources.
+
+Understanding JDBC is important because it enables Java applications to interact with databases and manage persistent data in real-world applications.
