@@ -1,0 +1,9 @@
+Today’s session focused on implementing database operations using JDBC in Java. JDBC allows Java programs to interact with relational databases and perform data management tasks. The mentor explained that applications commonly perform operations such as inserting new records, retrieving stored data, updating existing information, and deleting unnecessary records from database tables. These operations are collectively known as CRUD operations (Create, Read, Update, Delete).
+
+The session demonstrated how JDBC components are used while executing SQL commands. The Connection object is responsible for establishing a link between the Java application and the database. PreparedStatement is used to execute SQL queries in a secure and efficient way, especially when parameters are involved. ResultSet is used to store and retrieve data returned from a query.
+
+During the practical demonstration, the mentor showed how a program connects to the database using DriverManager and then creates a PreparedStatement object to execute SQL queries. Using methods such as executeUpdate() and executeQuery(), the program can insert records, update fields, delete rows, or retrieve data from tables. PreparedStatement also helps prevent SQL injection and improves performance when the same query is executed multiple times.
+
+The working flow begins with loading the JDBC driver and establishing a database connection. After the connection is created, a PreparedStatement object is prepared with the required SQL command. The query is then executed, and if it returns data, the ResultSet object is used to read the records. Finally, the database connection is closed after completing the operation.
+
+This concept is important because most real-world applications require interaction with databases to store, update, and manage information efficiently.
