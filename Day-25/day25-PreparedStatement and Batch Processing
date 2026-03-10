@@ -1,0 +1,22 @@
+Today’s lecture focused on advanced JDBC techniques, mainly the use of PreparedStatement and batch processing. 
+The mentor explained that PreparedStatement is used to execute parameterized SQL queries. Unlike a normal Statement, 
+a PreparedStatement is precompiled by the database, which improves performance when the same query is executed 
+multiple times. It also provides better security because parameters are passed separately, helping prevent SQL 
+injection attacks.
+
+The session demonstrated how PreparedStatement uses placeholders (?) in SQL queries. Values are then assigned to 
+these placeholders using methods such as setInt() and setString(). Once the parameters are set, the query can be 
+executed using methods like executeUpdate() or executeQuery(). This approach makes database operations faster and 
+more efficient when handling multiple records.
+
+The mentor also introduced batch processing in JDBC. Batch processing allows multiple SQL commands to be grouped 
+together and executed in a single request to the database. This reduces the number of database connections and improves 
+application performance. Using methods like addBatch() and executeBatch(), several queries can be stored and executed together.
+
+The working flow starts by establishing a database connection and creating a PreparedStatement object. SQL queries 
+are prepared with placeholders for parameters. Values are assigned and added to the batch using addBatch(). 
+When executeBatch() is called, all queries in the batch are executed together. This process reduces communication 
+overhead between the application and the database.
+
+Understanding PreparedStatement and batch processing is important because they improve the efficiency, security, 
+and performance of database operations in real-world applications.
