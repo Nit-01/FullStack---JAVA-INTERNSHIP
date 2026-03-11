@@ -1,0 +1,11 @@
+Today’s lecture focused on transaction management in JDBC and how it helps maintain data consistency in database operations. A transaction is a group of SQL operations that are executed as a single unit of work. This means either all operations in the transaction are successfully completed, or none of them are applied to the database. Transaction management is important in applications where multiple database updates must occur together.
+
+The mentor explained that by default JDBC works in auto-commit mode, where each SQL statement is automatically saved in the database after execution. However, when transaction management is required, auto-commit can be disabled using setAutoCommit(false). This allows multiple operations to be executed together before deciding whether to permanently store them.
+
+Two important methods used in transaction management are commit() and rollback(). The commit() method saves all changes made during the transaction and makes them permanent in the database. The rollback() method cancels all operations performed during the transaction and restores the database to its previous state if an error occurs.
+
+During the practical session, the mentor demonstrated how multiple SQL statements can be executed within a transaction block. If all operations are successful, commit() is called to save the changes. If any exception occurs, rollback() is used to undo the operations. This ensures that the database remains consistent and prevents partial updates.
+
+The working flow begins with establishing a database connection and disabling auto-commit. SQL operations are then executed using a statement or prepared statement. If all operations succeed, commit() is called to finalize the transaction. If an error occurs during execution, rollback() is used to revert all changes. Finally, the database connection is closed.
+
+Understanding transaction management is important because it ensures reliability and consistency when performing multiple database operations.
