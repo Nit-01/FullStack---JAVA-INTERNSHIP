@@ -1,0 +1,22 @@
+Today’s class focused on software design practices used in Java applications, particularly the DAO (Data Access Object) 
+pattern and layered architecture. These design approaches help organize code in a structured way, making applications 
+easier to maintain and extend. The mentor explained that in large applications, mixing database code with business 
+logic can make programs complex and difficult to manage. The DAO pattern solves this by separating database operations 
+from the main application logic.
+
+In the DAO pattern, a separate class is created to handle all database interactions such as inserting, updating, deleting, 
+and retrieving data. The main application does not directly communicate with the database. Instead, it calls methods from 
+the DAO class. This improves code readability and allows database-related changes to be handled in one place without 
+affecting other parts of the program.
+
+The session also covered layered architecture. In this structure, the application is divided into different layers, 
+each responsible for a specific task. The presentation layer handles user interaction, the service or business layer 
+processes the application logic, and the data access layer communicates with the database. This separation helps developers 
+work on different parts of the system independently and improves scalability.
+
+The working flow begins with the presentation layer receiving input from the user. The request is passed to the service 
+layer where the main business logic is processed. The service layer then calls the DAO layer to perform database operations. 
+The DAO layer executes SQL queries and returns the results back through the layers to the user interface.
+
+Understanding DAO and layered architecture is important because they are commonly used in enterprise Java applications 
+to build clean and maintainable systems.
