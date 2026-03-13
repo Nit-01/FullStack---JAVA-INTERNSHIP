@@ -1,0 +1,9 @@
+Today’s session focused on connecting Java applications with a MySQL database using JDBC. JDBC (Java Database Connectivity) is an API that allows Java programs to communicate with relational databases. The mentor explained that to connect Java with MySQL, a JDBC driver is required. This driver acts as a bridge between the Java application and the MySQL database so that SQL commands can be executed from the program.
+
+The session explained the steps required for database connectivity. First, the JDBC driver must be loaded so that the application can communicate with the database. After loading the driver, a connection is established using the DriverManager class by providing the database URL, username, and password. Once the connection is created, SQL queries can be executed using a Statement or PreparedStatement object. The results returned from the database are stored in a ResultSet object, which can then be accessed row by row.
+
+During the practical session, the mentor demonstrated how Java programs can insert records into a database table and retrieve stored data. Using SQL commands such as INSERT and SELECT, the program sends instructions to the database. The database processes the query and returns the result to the Java application.
+
+The working flow starts with loading the JDBC driver and establishing a connection to the MySQL database. After the connection is created, SQL queries are executed using a statement object. The ResultSet object retrieves the data from the table and displays it. Finally, the database connection is closed after completing the operation.
+
+Understanding database connectivity is important because most real-world applications require storing and retrieving data from databases.
