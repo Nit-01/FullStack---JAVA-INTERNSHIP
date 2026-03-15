@@ -1,0 +1,9 @@
+Today’s session focused on starting a console-based mini project using JDBC. The mentor explained the objective of the project, which is to create a Java console application that can interact with a database to manage records. The project will allow users to perform operations such as adding, viewing, updating, and deleting records through a simple console interface.
+
+The discussion began with setting up the basic project structure. The mentor explained that the application should be organized into different classes so that each part of the program has a specific responsibility. One class is used to establish the database connection, while other classes will later handle operations such as inserting, displaying, updating, and deleting records. This structure helps keep the program organized and easier to maintain.
+
+During the practical session, the initial code was implemented to establish a connection between the Java application and the database using JDBC. The program loads the database driver and creates a connection using the database URL, username, and password. Once the connection is established successfully, the application will be ready to perform database operations in the later stages of the project.
+
+The working flow starts when the program loads the JDBC driver. After that, the application attempts to establish a connection with the database using DriverManager. If the connection is successful, a connection object is returned. This connection will be reused by other parts of the program to execute SQL queries and manage database records.
+
+This setup forms the foundation for the console-based project, where further functionalities will be added in upcoming sessions.
