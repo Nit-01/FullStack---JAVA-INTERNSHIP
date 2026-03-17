@@ -1,0 +1,9 @@
+Today’s session focused on extending the console-based JDBC mini project by adding interaction through user input. The mentor explained how a Java console application can take input from the user and perform database operations dynamically. This makes the application more interactive and closer to real-world usage.
+
+The session demonstrated how SQL commands can be integrated into the program to perform operations such as inserting new records and displaying existing data from the database. User input is taken using classes like Scanner, and the entered values are passed into SQL queries using PreparedStatement. This ensures both flexibility and security while executing queries.
+
+The mentor showed how the program flow works: first, the user selects an operation from the console, then inputs required data, and finally the application executes the corresponding SQL command. For displaying records, the program retrieves data using ResultSet and prints it in the console.
+
+The working flow starts by establishing a database connection. The program then takes input from the user. Based on the input, a PreparedStatement is created and executed. If it is an insert operation, executeUpdate() is used. If it is a display operation, executeQuery() is used, and the ResultSet is used to print records. This process allows smooth interaction between user input and database operations.
+
+This step is important because it makes the project functional and interactive, forming the base for implementing full CRUD operations.
