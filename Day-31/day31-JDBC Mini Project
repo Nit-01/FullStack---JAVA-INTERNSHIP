@@ -1,0 +1,19 @@
+Today’s session focused on evaluating and refining the console-based JDBC mini project. The mentor reviewed the project
+implementation and pointed out common mistakes related to database connectivity, SQL query execution, and overall program 
+structure. The importance of writing clean, organized, and error-free code was emphasized.
+
+The session highlighted issues such as improper handling of database connections, incorrect SQL syntax, missing validations, 
+and poor logic flow. The mentor explained how these mistakes can affect application performance and reliability. Guidance 
+was given on how to systematically debug the program by checking each step, including connection setup, query execution, 
+and result handling.
+
+During the practical session, I tested different functionalities of the project such as inserting and retrieving data. 
+Errors were identified and corrected by improving input validation and fixing logical mistakes in the code. This helped 
+in ensuring that the application works correctly and handles user input properly.
+
+The working flow starts by executing the program and testing each functionality step by step. If an error occurs, the 
+program is checked to identify whether the issue is in the connection, SQL query, or logic. Corrections are made, and 
+the program is tested again. This process continues until the application runs smoothly without errors.
+
+This session is important because debugging and refining are essential steps in software development to ensure the 
+application is stable, efficient, and reliable.
