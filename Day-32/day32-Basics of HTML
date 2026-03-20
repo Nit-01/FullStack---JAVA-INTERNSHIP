@@ -1,0 +1,18 @@
+Today’s class focused on the fundamentals of HTML and how web pages are structured. HTML (HyperText Markup Language) is used 
+to create and design web pages. The mentor explained that an HTML document follows a standard structure, which includes 
+elements like <html>, <head>, and <body>. The <head> section contains metadata such as the title of the page, while the 
+<body> section contains the actual content that is displayed in the browser.
+
+The session introduced basic HTML tags used to structure content. Heading tags (<h1> to <h6>) are used to display titles, 
+    paragraph tags (<p>) are used to write text content, anchor tags (<a>) are used to create links between pages, and image 
+        tags (<img>) are used to display images. Each tag has a specific purpose and helps in organizing the content clearly.
+
+The mentor explained how browsers read HTML code line by line and render it visually on the screen. Proper use of tags ensures 
+that the content is displayed correctly. Attributes such as href in anchor tags and src in image tags are used to provide 
+additional information to elements.
+
+The working flow starts with writing HTML code in a file and saving it with a .html extension. When the file is opened in a 
+browser, the browser interprets the tags and displays the content accordingly. This helps in creating structured and 
+user-friendly web pages.
+
+Understanding HTML is important because it forms the foundation of web development.
