@@ -1,0 +1,9 @@
+Today’s lecture focused on designing forms in HTML and applying validation to control user input. Forms are used to collect data from users, such as login details, feedback, or registration information. The mentor explained that the <form> tag is used to create a form, and it contains various input elements to capture user data. Attributes like action and method define where the data is sent and how it is processed.
+
+Different form elements were introduced, including text fields for input, password fields for secure data entry, radio buttons for selecting one option, checkboxes for selecting multiple options, and dropdown menus for predefined choices. Each element serves a specific purpose in collecting structured data from users.
+
+The session also covered validation techniques to ensure that only correct data is submitted. Attributes like required ensure that a field cannot be left empty, type specifies the kind of data (such as email or number), and pattern is used to define custom rules for input validation. These validations help improve data accuracy and user experience.
+
+The working flow starts when a user enters data into the form fields. Before submission, the browser checks the validation rules defined in the input elements. If the data is valid, the form is submitted; otherwise, error messages are shown, and the user must correct the input.
+
+Understanding forms and validation is important because they are widely used in web applications to collect and process user data.
