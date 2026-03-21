@@ -1,0 +1,9 @@
+Today’s lecture focused on advanced layout techniques in CSS using Flexbox and Grid systems. These are powerful tools used to design responsive and well-structured web layouts. The mentor explained that Flexbox is mainly used for arranging elements in a single direction, either row or column, while Grid is used for creating layouts in both rows and columns.
+
+Flexbox works on a one-dimensional layout system. It uses a container and its child elements called flex items. Properties like display: flex, justify-content, align-items, and flex-direction are used to control alignment, spacing, and positioning of elements. Flexbox makes it easy to center elements, distribute space evenly, and adjust layouts dynamically.
+
+Grid, on the other hand, is a two-dimensional layout system. It allows developers to create complex layouts by defining rows and columns using properties like display: grid and grid-template-columns. It provides better control for designing full page layouts compared to Flexbox. Grid is especially useful when both horizontal and vertical alignment are required.
+
+The working flow starts by defining a container as flex or grid. Then child elements are arranged using layout properties. The browser applies these rules to position elements properly on the webpage. This helps in creating responsive designs that adjust according to screen size.
+
+Understanding Flexbox and Grid is important because they are widely used in modern web development to create flexible and responsive layouts.
