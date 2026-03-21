@@ -1,0 +1,9 @@
+Today’s class introduced CSS (Cascading Style Sheets) and its role in designing and styling web pages. CSS is used to control the appearance and layout of HTML elements, making web pages more attractive and user-friendly. The mentor explained that while HTML provides structure, CSS is responsible for presentation.
+
+The session covered three ways to apply CSS: inline CSS, internal CSS, and external CSS. Inline CSS is applied directly within an HTML tag using the style attribute. Internal CSS is written inside the <style> tag within the <head> section of the HTML document. External CSS is written in a separate .css file and linked to the HTML file, which is the most commonly used method for large projects.
+
+Basic CSS concepts such as selectors, colors, fonts, spacing, and borders were explained. Selectors are used to target HTML elements, and properties like color and background-color are used to change text and background appearance. Font properties control text size and style, while margin and padding are used for spacing. Borders are used to define the outline of elements.
+
+The working flow starts when CSS is applied to HTML elements using selectors. The browser reads the CSS rules and applies the styles to matching elements. This changes how the content is displayed without modifying the HTML structure.
+
+Understanding CSS is important because it enhances the visual design and layout of web applications.
