@@ -1,0 +1,9 @@
+Today’s class focused on the concept of responsive web design, which ensures that web pages automatically adjust their layout and content based on different screen sizes and devices such as mobile, tablet, and desktop. The mentor explained that responsive design is important for providing a consistent user experience across all devices without creating separate websites.
+
+The session covered the use of the viewport meta tag, which controls how a webpage is displayed on different screen sizes. By setting the viewport width to the device width, the layout adapts properly to smaller screens. The mentor also explained flexible layouts, where elements use relative units like percentages instead of fixed sizes, allowing them to resize based on the screen.
+
+Media queries were introduced as a key technique in responsive design. Media queries allow different CSS styles to be applied based on conditions such as screen width. This helps in adjusting layouts, font sizes, and element positioning for different devices. By using breakpoints, developers can design layouts specifically for mobile, tablet, and desktop views.
+
+The working flow starts when the browser loads the webpage and checks the screen size. Based on the viewport settings and media queries, the appropriate CSS rules are applied. The layout adjusts dynamically, ensuring that content is readable and properly aligned on all devices.
+
+Understanding responsive design is important because modern web applications must support multiple devices and screen sizes.
