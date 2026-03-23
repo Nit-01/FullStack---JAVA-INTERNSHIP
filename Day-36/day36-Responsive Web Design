@@ -7,3 +7,4 @@ Media queries were introduced as a key technique in responsive design. Media que
 The working flow starts when the browser loads the webpage and checks the screen size. Based on the viewport settings and media queries, the appropriate CSS rules are applied. The layout adjusts dynamically, ensuring that content is readable and properly aligned on all devices.
 
 Understanding responsive design is important because modern web applications must support multiple devices and screen sizes.
+
