@@ -1,0 +1,9 @@
+Today’s lecture focused on the fundamentals of JavaScript, particularly variables and functions. JavaScript is used to add interactivity and dynamic behavior to web pages. The mentor explained how variables are used to store data and how different keywords like var, let, and const are used for variable declaration.
+
+The var keyword is the older way of declaring variables and has function scope. The let keyword is block-scoped and is commonly used in modern JavaScript because it provides better control over variable usage. The const keyword is also block-scoped but is used for variables whose values should not be reassigned after initialization. These differences help in writing more secure and predictable code.
+
+The session also introduced functions, which are reusable blocks of code designed to perform a specific task. Functions are defined using the function keyword, and they can take parameters as input and return a result. By using functions, code becomes more modular and easier to manage.
+
+The working flow starts when variables are declared and assigned values. Functions are defined and then called when needed. When a function is called, it executes its block of code and may return a result. This allows developers to reuse logic and reduce repetition in programs.
+
+Understanding variables and functions is important because they form the foundation of JavaScript programming and are essential for building interactive web applications.
