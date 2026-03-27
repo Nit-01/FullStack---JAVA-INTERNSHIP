@@ -1,0 +1,9 @@
+Today’s lecture focused on the Document Object Model (DOM) and how JavaScript interacts with web page elements. The DOM represents an HTML document as a tree structure, where each element is treated as an object. This allows JavaScript to access, modify, and manipulate elements dynamically.
+
+The mentor explained how elements can be selected using methods like getElementById(), getElementsByClassName(), and querySelector(). Once an element is selected, its content, attributes, and styles can be modified using JavaScript. For example, text can be changed using innerHTML, and styles can be updated using the style property.
+
+The session also demonstrated how JavaScript responds to user actions such as button clicks. By using events like onclick, functions can be triggered to update the webpage in real time without reloading it. This makes web applications interactive and user-friendly.
+
+The working flow starts when the HTML page is loaded and the DOM is created. JavaScript selects specific elements from the DOM and applies changes such as updating text or styles. When a user performs an action, an event is triggered, and the corresponding function executes, modifying the webpage instantly.
+
+Understanding DOM manipulation is important because it enables dynamic updates and interactivity in modern web applications.
