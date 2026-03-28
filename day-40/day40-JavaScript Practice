@@ -6,4 +6,5 @@ The session also included DOM operations, where JavaScript was used to select HT
 
 The working flow starts when the user interacts with the webpage by providing input or clicking a button. JavaScript captures the input, processes it using conditions, loops, or functions, and updates the result in the DOM. This allows real-time interaction without refreshing the page.
 
+
 This session is important because practicing multiple small problems helps in building confidence and improving problem-solving skills in JavaScript.
