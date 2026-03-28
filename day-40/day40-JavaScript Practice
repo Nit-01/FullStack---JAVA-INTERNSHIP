@@ -1,0 +1,9 @@
+ Today’s session focused on hands-on practice of JavaScript concepts through mini exercises. The goal was to strengthen understanding of core concepts such as variables, functions, loops, conditional statements, and DOM manipulation. The mentor provided different tasks that required applying these concepts in practical scenarios, which helped in improving logical thinking and coding accuracy.
+
+During the session, I worked on problems that involved taking user input, performing calculations, and displaying results dynamically on a webpage. Conditional statements were used to make decisions based on input values, and loops were used to repeat operations when needed. Functions were implemented to organize the code and make it reusable.
+
+The session also included DOM operations, where JavaScript was used to select HTML elements and update their content dynamically. Event handling was practiced using actions like button clicks, which triggered functions to execute specific tasks. This helped in understanding how JavaScript interacts with HTML to create interactive web pages.
+
+The working flow starts when the user interacts with the webpage by providing input or clicking a button. JavaScript captures the input, processes it using conditions, loops, or functions, and updates the result in the DOM. This allows real-time interaction without refreshing the page.
+
+This session is important because practicing multiple small problems helps in building confidence and improving problem-solving skills in JavaScript.
