@@ -1,0 +1,9 @@
+Today’s class focused on understanding Bootstrap components and how they are used to design user-friendly web interfaces quickly. Bootstrap is a front-end framework that provides pre-designed components and styles, which helps in developing responsive and visually appealing web pages without writing extensive CSS.
+
+The mentor explained various commonly used components such as buttons, cards, navbars, alerts, and modals. These components come with predefined classes that can be directly applied to HTML elements. Buttons are used for actions, cards are used to display content in a structured format, navbars are used for navigation, alerts are used to show messages, and modals are used for popup dialogs.
+
+The session highlighted how Bootstrap speeds up UI development by reducing the need to write custom styles. By simply adding Bootstrap classes, complex layouts and designs can be created easily. The mentor also explained that Bootstrap follows a responsive grid system, which helps in designing layouts that adjust automatically to different screen sizes.
+
+The working flow starts by including the Bootstrap CSS and JS files in the HTML document. After that, Bootstrap classes are applied to HTML elements to style them. The browser reads these classes and renders the components with predefined styles and behavior.
+
+Understanding Bootstrap is important because it allows developers to quickly build responsive and professional-looking user interfaces.
