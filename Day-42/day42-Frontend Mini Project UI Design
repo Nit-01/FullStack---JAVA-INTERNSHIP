@@ -1,0 +1,9 @@
+Today’s session focused on designing the user interface for the frontend mini project. The mentor explained how to plan the structure of a webpage before starting development. Proper planning helps in organizing elements like header, navigation bar, and content sections in a clear and user-friendly way. The importance of layout design and user experience was emphasized.
+
+The session highlighted the use of HTML for structuring the webpage, CSS for styling, and Bootstrap for creating responsive layouts. By combining these technologies, it becomes easier to build a clean and professional-looking interface. Bootstrap components and grid system help in aligning elements properly and making the design adaptable to different screen sizes.
+
+During the practical session, I started building the layout of the project. I created sections such as header, navigation bar, and content area. Styling was applied using CSS to improve the visual appearance, including colors, spacing, and alignment. Different design options were tested to make the interface more attractive and user-friendly.
+
+The working flow starts with planning the layout of the webpage. Then HTML is used to create the structure, followed by CSS and Bootstrap to apply styles and layout design. The browser renders the page and displays the organized interface. Adjustments are made to improve responsiveness and appearance.
+
+This session is important because UI design plays a major role in how users interact with a web application.
